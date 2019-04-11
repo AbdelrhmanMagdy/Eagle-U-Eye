@@ -1,0 +1,23 @@
+.container{
+    background-color: thistle;
+    grid-row: 2 / -1;
+    grid-column: 2 / -1;
+    display: grid;
+    grid-template-rows: 60rem 40rem;
+    grid-template-columns: 1fr;
+
+}
+.streams{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;   
+}
+.map{
+    background-color: rgb(2, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;   
+}

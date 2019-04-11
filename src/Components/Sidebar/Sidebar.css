@@ -1,0 +1,10 @@
+.side-bar{
+    background-color: blueviolet;
+    grid-column: 1 / 1;
+    grid-row: 2 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    /* display: none */
+}
