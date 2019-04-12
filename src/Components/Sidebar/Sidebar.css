@@ -1,10 +1,27 @@
 .side-bar{
-    background-color: blueviolet;
+    background-color: rgba(229, 235, 229, 0.911);
     grid-column: 1 / 1;
     grid-row: 2 / -1;
     display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 4rem 1rem;
+    box-sizing: border-box;
+    /* display: none */
+}
+.person{
+    width: 100%;
+    height: 6rem;
+    font-size: 1.6rem;
+    border-bottom: 4px solid rgb(33, 170, 147);
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4rem;
-    /* display: none */
+    margin-bottom: 1rem;
+    background-color:  rgba(241, 247, 241, 0.966)
+}
+.side-bar h3{
+    margin-bottom: 4rem;
 }
