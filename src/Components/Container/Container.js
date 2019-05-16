@@ -8,10 +8,10 @@ import Controllers from './Controllers';
  class Container extends Component {
   state = {
     srcs: [
+      'http://0.0.0.0:5000/video_feed?si=0',
       'http://0.0.0.0:5000/video_feed?si=1',
       'http://0.0.0.0:5000/video_feed?si=2',
       'http://0.0.0.0:5000/video_feed?si=3',
-      'http://0.0.0.0:5000/video_feed?si=4',
 
     ]
   };
